@@ -75,13 +75,22 @@
     color: white;
     background: rgb(139, 152, 194);
     border-radius: 5px;
+    cursor: pointer; /* Pointer cursor on hover */
 }
 
-.mylink:hover {
-    background: darkblue;
+.mylink:link {
+    color: rgb(17, 17, 214);   /* normal link */
 }
+
 .mylink:visited {
-    color: purple;
+    color: rgb(47, 39, 47);
+} 
+.mylink:hover {
+    background: rgb(77, 77, 180);
+}
+
+.mylink:active {
+    color: rgb(100, 67, 5); /* when clicked */
 }
 
 
@@ -101,6 +110,10 @@
     <p>This is a <s>strikethrough</s> text example.</p>
     <p>This is a <small>small</small> text example.</p>         
     <p>This is a <span style="font-size: 24px; color: blue;">custom styled</span> text example.</p>
+
+    <a href="https://www.google.com" class="mylink">Google</a>
+    <a href="https://www.youtube.com" class="mylink">YouTube</a>
+ 
 
 <h1>  Chapter1 </h1>
     <p class="a"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam rem vel error,
@@ -123,8 +136,6 @@
          veniam cumque, facere impedit placeat nulla? At accusamus quae reiciendis sit!</p>
 
 
-<a href="https://www.google.com" class="mylink">Google</a>
-<a href="https://www.youtube.com" class="mylink">YouTube</a>
 
 </body>
 </html>

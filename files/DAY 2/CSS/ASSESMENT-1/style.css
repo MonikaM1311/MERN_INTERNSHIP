@@ -1,0 +1,121 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* Navbar */
+nav {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 2px solid #692c2c;
+}
+
+nav .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #da4343;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #d83b3b;
+}
+
+nav ul li a:hover {
+    color: #8d0606;
+}
+
+/* Header Banner */
+.header {
+    padding: 90px;
+    text-align: center;
+    background: linear-gradient(rgba(244, 16, 16, 0.4), rgba(46, 4, 4, 0.4)),
+                url("banner.jpg");
+    background-size: cover;
+    color: rgb(141, 10, 10);
+}
+
+/* Sections */
+.section {
+    padding: 50px 70px;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* Cards */
+.course-box {
+    background: #d57474;
+    padding: 25px;
+    margin-top: 25px;
+    border: 1px solid #aa3030;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background: #782d2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Login Page */
+.login-container {
+    width: 40%;
+    margin: 60px auto;
+    padding: 40px;
+    background: #d57474;
+    border-radius: 10px;
+    border: 1px solid #aa3030;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 1px solid #520000;
+}
+
+button {
+    padding: 12px 22px;
+    background: #a23d03;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff0303;
+}
