@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Features Display</title>
+</head>
+
+<body>
+
+    <h1>HTML Features Display Page </h1>
+
+    <!-- LINKS -->
+    <h2>Hyperlinks</h2>
+
+    <p>
+        <a href="https://www.google.com">Open Google (same tab)</a>
+    </p>
+
+    <p>
+        <a href="https://www.youtube.com" target="_blank">Open YouTube (new tab)</a>
+    </p>
+
+
+    <!-- IMAGES -->
+    <h2>Images</h2>
+
+    <img src="Virat Kohli.jpg" width="250" alt="Local Image"><br><br>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjJ9EOK-lxTpcFk14ql9JzGzxAEiJ08wT_WA&s"
+         alt="Online Image">
+
+
+    <!-- IFRAMES -->
+    <h2>IFrame Example</h2>
+
+    <iframe src="form.html" width="600" height="300"></iframe>
+
+
+    <!-- VIDEO LIST WITH TARGET IFRAMES -->
+    <h2>YouTube Videos</h2>
+
+    <ul>
+        <li>
+            <a href="https://www.youtube.com/embed/TkZBN4GHCzo" target="myframe">
+                Nob To Pro
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/embed/HMT-TPNkzCM" target="myframe">
+                Vlog
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/embed/mI_LjbbYf08" target="myframe">
+                Stranger Things
+            </a>
+        </li>
+    </ul>
+
+    <iframe name="myframe" width="500" height="400"></iframe>
+
+
+    <!-- MARQUEE SECTION -->
+    <h2>Marquee Examples</h2>
+
+    <marquee>Normal marquee</marquee>
+
+    <marquee direction="right">Right direction marquee</marquee>
+
+    <marquee behavior="alternate" scrollamount="8">
+        Bouncing marquee
+    </marquee>
+
+    <marquee bgcolor="lightblue" scrollamount="5" width="300">
+        Colored marquee box
+    </marquee>
+
+    <marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="7">
+        Hover to stop scrolling
+    </marquee>
+
+    <marquee direction="left" scrollamount="8">
+        <img src="download.png" width="150">
+    </marquee>
+
+    <!-- Table Creation -->
+
+    <table border="1" cellpadding="10" cellspacing="0" width="70%" align="center" bgcolor="#f9f9f9">
+    <caption>
+        <h2 style="margin:5px;">Student Performance Report</h2>
+    </caption>
+
+    <tr bgcolor="#4CAF50" style="color:white;">
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Attendance (%)</th>
+        <th>Marks</th>
+    </tr>
+
+    <tr bgcolor="#ffffff">
+        <td align="center">101</td>
+        <td>Monika</td>
+        <td>AI & DS</td>
+        <td align="center">95%</td>
+        <td align="center">98</td>
+    </tr>
+
+    <tr bgcolor="#f2f2f2">
+        <td align="center">102</td>
+        <td>Arjun</td>
+        <td>CSE</td>
+        <td align="center">89%</td>
+        <td align="center">91</td>
+    </tr>
+
+    <tr bgcolor="#ffffff">
+        <td align="center">103</td>
+        <td>Sonia</td>
+        <td>IT</td>
+        <td align="center">93%</td>
+        <td align="center">94</td>
+    </tr>
+
+    <tr bgcolor="#f2f2f2">
+        <td align="center">104</td>
+        <td>Ravi</td>
+        <td>ECE</td>
+        <td align="center">90%</td>
+        <td align="center">89</td>
+    </tr>
+</table>
+
+<table border="1" cellpadding="10" cellspacing="0" width="70%" align="center">
+
+    <caption><h2>Employee Work Report</h2></caption>
+
+    <!-- Header Row -->
+    <tr bgcolor="#cfe2ff">
+        <th rowspan="2">Employee Name</th>
+        <th colspan="2">Working Hours</th>
+        <th rowspan="2">Project</th>
+    </tr>
+
+    <tr bgcolor="#cfe2ff">
+        <th>Morning Shift</th>
+        <th>Evening Shift</th>
+    </tr>
+
+    <!-- Row 1 -->
+    <tr>
+        <td>Monika</td>
+        <td align="center">4 hrs</td>
+        <td align="center">5 hrs</td>
+        <td rowspan="2" align="center">AI Research</td>
+    </tr>
+
+    <!-- Row 2 with rowspan -->
+    <tr>
+        <td>Arjun</td>
+        <td align="center">5 hrs</td>
+        <td align="center">3 hrs</td>
+    </tr>
+
+    <!-- Row 3 -->
+    <tr>
+        <td>Sonia</td>
+        <td colspan="2" align="center">Full Day (8 hrs)</td>
+        <td align="center">Web Development</td>
+    </tr>
+
+</table>
+
+
+</body>
+</html>
+
+

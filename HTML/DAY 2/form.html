@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML Form</title>
+</head>
+<body>
+
+<h2>User Registration Form</h2>
+
+<form action="#" method="post">
+
+    <!-- Text Field -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <!-- Address -->
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="40" placeholder="Enter your address"></textarea><br><br>
+
+    <!-- Date -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <!-- Gender Radio Buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+
+    <!-- Checkbox -->
+    <label>Skills:</label><br>
+    <input type="checkbox" id="html" name="skills" value="HTML">
+    <label for="html">HTML</label><br>
+
+    <input type="checkbox" id="css" name="skills" value="CSS">
+    <label for="css">CSS</label><br>
+
+    <input type="checkbox" id="js" name="skills" value="Javascript">
+    <label for="js">JavaScript</label><br><br>
+
+    <!-- Dropdown -->
+    <label for="course">Select Your Course:</label><br>
+    <select id="course" name="course">
+        <option value="mern">MERN Full Stack</option>
+        <option value="python">Python Full Stack</option>
+        <option value="java">Java Developer</option>
+        <option value="ai">Artificial Intelligence</option>
+    </select><br><br>
+
+    <!-- File Upload -->
+    <label for="resume">Upload Resume:</label><br>
+    <input type="file" id="resume" name="resume"><br><br>
+
+    <!-- Message -->
+    <label for="message">Additional Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40" placeholder="Enter your message here"></textarea><br><br>
+    
+    <!-- Phone -->
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="+91 9876543210"><br><br>
+
+    <!-- Submit & Reset -->
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
